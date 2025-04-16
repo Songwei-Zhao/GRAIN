@@ -62,15 +62,6 @@ def get_dataset(name: str, use_lcc: bool = True) -> InMemoryDataset:
     if name in ['Cora', 'Citeseer', 'pubmed']:
         dataset = Planetoid(path, name)
         use_lcc = False
-    elif name in ['Computers', 'Photo']:
-        dataset = Amazon(path, name)
-        use_lcc = True
-    elif name == 'CoauthorCS':
-        dataset = Coauthor(path, 'CS')
-    elif name == 'actor':
-        dataset = Actor(path, 'name')
-    elif name in ('chameleon', 'cornell', 'film', 'squirrel', 'texas', 'wisconsin'):
-        dataset = load_geom_gcn_dataset(name)
     else:
         raise Exception('Unknown dataset.')
 
