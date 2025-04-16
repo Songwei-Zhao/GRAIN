@@ -59,7 +59,7 @@ def Reward_adapter(r, EnvIdex):
 
 def get_dataset(name: str, use_lcc: bool = True) -> InMemoryDataset:
     path = os.path.join(DATA_PATH, name)
-    if name in ['Cora', 'Citeseer', 'pubmed']:
+    if name in ['Cora']:
         dataset = Planetoid(path, name)
         use_lcc = False
     else:
