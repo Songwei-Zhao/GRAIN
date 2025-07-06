@@ -17,6 +17,7 @@ python train
 If you find this benchmark helpful, please cite our paper:
 
 @inproceedings{zhao2025grain,
+
   title={GRAIN: Multi-Granular and Implicit Information Aggregation Graph Neural Network for Heterophilous Graphs},
   author={Zhao, Songwei and Jiang, Yuan and Zhang, Zijing and Yu, Yang and Chen, Hechang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
