@@ -1,4 +1,4 @@
-# GRAlN: Multi-Granular and implicit Information Aggregation Graph Neural Network for Heterophilous Graphs
+# GRAIN: Multi-Granular and implicit Information Aggregation Graph Neural Network for Heterophilous Graphs
 This is the implementation of GRAIN
 
 ## Installation requirements
